@@ -1,0 +1,34 @@
+.currency-screen {
+  position: relative;
+  height: 220px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 30px 24px 30px;
+  gap: 36px;
+}
+
+.currency-screen__row {
+  display: flex;
+  align-items: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.currency-screen_reload-btn {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  bottom: 12px;
+  transform: translateY(50%);
+  font-size: 10px;
+}
+
+.currency-screen_reload-icon {
+  margin-left: 3px;
+}

@@ -1,0 +1,67 @@
+.keyboard {
+  background: #fff;
+  max-width: 320px;
+  width: 100%;
+  border-radius: 29px 29px 0 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  padding-top: 25px;
+}
+
+.keyboard__btn {
+  background: none;
+  border: none;
+  color: #000;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.keyboard__btn--clear {
+  color: #e94747;
+}
+
+.keyboard__btn--operation,
+.keyboard__btn--remove {
+  color: #316bff;
+}
+
+.keyboard__btn--remove {
+  fill-opacity: 0.57;
+}
+
+.keyboard__btn--equals {
+  grid-column: span 2;
+  background: #6fcf97;
+  max-width: 104px;
+  width: 100%;
+  max-height: 30px;
+  padding: 0;
+  border-radius: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.keyboard__btn--row-one {
+  grid-row: 1;
+}
+
+.keyboard__btn--row-two {
+  grid-row: 2;
+}
+
+.keyboard__btn--row-three {
+  grid-row: 3;
+}
+
+.keyboard__btn--row-four {
+  grid-row: 4;
+}
+
+.keyboard__btn--row-five {
+  grid-row: 5;
+}

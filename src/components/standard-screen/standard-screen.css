@@ -1,0 +1,28 @@
+.standard-screen {
+  height: 220px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 30px 30px 24px 30px;
+}
+
+.standard-screen__history {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.standard-screen__history-item {
+  font-size: 28px;
+  height: 28px;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+.standard-screen__active {
+  font-size: 40px;
+  height: 40px;
+  line-height: 1em;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
